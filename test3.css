@@ -1,0 +1,64 @@
+.background{
+   /* border:1px solid red;*/
+    height: 80vh;
+    width:100%;
+    background-color:ghostwhite;
+    padding-top: 10px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.left >h1{
+    color:black;
+    padding-top: 10px;
+    margin-left: 70px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left >p{
+    color:black;
+    margin-left: 70px;
+    font-size: small;
+}
+.left >button{
+    border-radius: 16px;
+    margin-left: 70px;
+    background-color: rgb(13, 8, 1) !important;
+    color:whitesmoke;
+    width:80px;
+}
+.image{
+    float:right;
+    display: flex;
+    justify-content:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 100px;
+    margin-inline-start: 10px;
+
+
+}
+.image1 > h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2 > h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image3 > h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
